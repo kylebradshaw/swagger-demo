@@ -1,0 +1,301 @@
+Started GET "/" for 127.0.0.1 at 2019-01-30 11:26:12 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.2) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-01-30 11:26:12 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.2) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePets (20170714161153)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "pets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "photo_url" varchar, "status" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170714161153"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-01-30 16:26:31.698197"], ["updated_at", "2019-01-30 16:26:31.698197"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2019-01-30 11:26:38 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api-docs" for 127.0.0.1 at 2019-01-30 11:26:48 -0500
+Processing by Rswag::Ui::HomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.5.0/gems/rswag-ui-1.4.0/app/views/rswag/ui/home/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.5.0/gems/rswag-ui-1.4.0/app/views/rswag/ui/home/index.html.erb (642.4ms)
+Completed 200 OK in 646ms (Views: 645.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/swagger-ui/css/typography-2f031d75b9ff642f9d36c72ea8bc174e3442e5328a7e50a7c8a6c94a30a43fca.css" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/object-assign-pollyfill-08907b427d46320ec9045ae1eac2a3a8d4f73a02180c368f42dda3ad95057ec9.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/css/reset-24ac87cae6630f82c87b49d3f702ff2506240011a3fabd03befad0521945d839.css" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/css/screen-c3c0a4d00f119b65b538214dbe366e64bd83ae08eae598b318402d6a4c45d8cd.css" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/jquery-1.8.0.min-e3c535f8b50572951d46f12095db2cdfceca8a39d2c9998d2029ffa7b80e94da.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/jquery.wiggle.min-039164bf6151e8f188c754158b768f9c6c443d0b14126bec33eb509542058465.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/jquery.ba-bbq.min-f391dd8d2de96e7f0e2715386a66529e16fa871e7ce872a90f0eafccd14387bf.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/handlebars-4.0.5-fdd16b00fc183addfecdfe0e14d14f9fcc2df58cde99ff5aad9f1aa6c7ad8b46.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/lodash.min-1b664af2fc41fbe5fd7df49a00ad4728d94c9065e256fb90b528230306a0dd9d.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/backbone-min-f93750e57d169b7bf3efac8f4b0facaeac96461f62d88e96f2c604f693291e3a.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/swagger-ui.min-9c0ae5253a61e44ba7dd490f46b295910a3230f73b683c20324d1bb849762838.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/highlight.9.1.0.pack-4978eb1b0ce41ff2ae70f466d29ae69607843f65539f76dc8ce0359c9361558e.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/highlight.9.1.0.pack_extended-be1cfdc131e316aaa68fe21291b9d0cdea13f8e9d7c304448e5e44ab6221f669.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/jsoneditor.min-b4b968ff7cedda04ebc84b7c1f37f559ca6ed3139fd77d02b359cb89f3312acc.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/swagger-oauth-42b98626545e006ccda50ac123186fdfa56c2a226d0d8ca91e25129113b6bd8e.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/marked-5b2fa3db4ac5ac253e64dd982bb46394fea2a3d4a7748e649fc36c9516cb1319.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/images/logo_small-08d1e32cbdbd6356ee744ec61f22f1055ff2769a3937d14cd562f1be0218d6cf.png" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/css/print-002ebc0c7e8451c5a332c749681118ce12c846988d36abf5b0c2b4cc6ca43ba5.css" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/lib/jquery.slideto.min-4ac55a3315abf9efaddf5c91723409a73e4b3c1b070199a1cd2e1f20db687e48.js" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/api-docs/v1/swagger.json" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.json"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/assets/swagger-ui/images/favicon-32x32-16058a65628324ecdb3db99e9420898b536e250f15894a4a7ed05baf16a957ba.png" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/assets/swagger-ui/images/favicon-16x16-0c687c6737476780510f5f474e833be45478a6ba9d0984d42d9df61325d0838d.png" for 127.0.0.1 at 2019-01-30 11:26:49 -0500
+Started GET "/api-docs" for 127.0.0.1 at 2019-01-30 11:31:30 -0500
+Processing by Rswag::Ui::HomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.5.0/gems/rswag-ui-1.4.0/app/views/rswag/ui/home/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.5.0/gems/rswag-ui-1.4.0/app/views/rswag/ui/home/index.html.erb (32.8ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api-docs/v1/swagger.json" for 127.0.0.1 at 2019-01-30 11:31:30 -0500
+Started GET "/assets/swagger-ui/images/favicon-32x32-16058a65628324ecdb3db99e9420898b536e250f15894a4a7ed05baf16a957ba.png" for 127.0.0.1 at 2019-01-30 11:31:30 -0500
+Started GET "/assets/swagger-ui/images/throbber-8ee91ceb10dcdf1c87635ff1a1ebe25818612fd9a07cb2dfca79928c3b86d9dc.gif" for 127.0.0.1 at 2019-01-30 11:31:35 -0500
+Started POST "/api/v1/pets" for 127.0.0.1 at 2019-01-30 11:31:48 -0500
+Processing by Api::V1::PetsController#create as JSON
+  Parameters: {"pet"=>{}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 422 Unprocessable Entity in 21ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/v1/pets" for 127.0.0.1 at 2019-01-30 11:32:04 -0500
+Processing by Api::V1::PetsController#create as JSON
+  Parameters: {"pet"=>{}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/api/v1/pets" for 127.0.0.1 at 2019-01-30 11:32:05 -0500
+Processing by Api::V1::PetsController#create as JSON
+  Parameters: {"pet"=>{}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/api/v1/pets" for 127.0.0.1 at 2019-01-30 11:32:24 -0500
+Processing by Api::V1::PetsController#create as JSON
+  Parameters: {"name"=>"kyle", "photo_url"=>"boo", "status"=>"lame", "pet"=>{"name"=>"kyle", "photo_url"=>"boo", "status"=>"lame"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.1ms)[0m  [1m[32mINSERT INTO "pets" ("name", "photo_url", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "kyle"], ["photo_url", "boo"], ["status", "lame"], ["created_at", "2019-01-30 16:32:24.607001"], ["updated_at", "2019-01-30 16:32:24.607001"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 6ms (Views: 0.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/api/v1/pets/1" for 127.0.0.1 at 2019-01-30 11:32:56 -0500
+Processing by Api::V1::PetsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKids (20190130163802)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "kids" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190130163802"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddKidIdToPets (20190130164408)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "pets" ADD "kid_id" integer[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190130164408"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api-docs" for 127.0.0.1 at 2019-01-30 11:52:40 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rswag::Ui::HomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.5.0/gems/rswag-ui-1.4.0/app/views/rswag/ui/home/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.5.0/gems/rswag-ui-1.4.0/app/views/rswag/ui/home/index.html.erb (32.7ms)
+Completed 200 OK in 35ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api-docs/v1/swagger.json" for 127.0.0.1 at 2019-01-30 11:52:41 -0500
+Started GET "/assets/swagger-ui/images/favicon-32x32-16058a65628324ecdb3db99e9420898b536e250f15894a4a7ed05baf16a957ba.png" for 127.0.0.1 at 2019-01-30 11:52:41 -0500
+  [1m[36mPet Load (1.4ms)[0m  [1m[34mSELECT  "pets".* FROM "pets" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mKid Load (0.4ms)[0m  [1m[34mSELECT  "kids".* FROM "kids" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mKid Load (0.1ms)[0m  [1m[34mSELECT  "kids".* FROM "kids" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mKid Load (0.1ms)[0m  [1m[34mSELECT  "kids".* FROM "kids" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mPet Load (0.1ms)[0m  [1m[34mSELECT  "pets".* FROM "pets" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mKid Load (0.1ms)[0m  [1m[34mSELECT  "kids".* FROM "kids" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mKid Load (0.1ms)[0m  [1m[34mSELECT  "kids".* FROM "kids" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddKidIdToPets (20190130164408)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar DEFAULT NULL, "photo_url" varchar DEFAULT NULL, "status" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "kid_id" integer DEFAULT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "apets" ("id","name","photo_url","status","created_at","updated_at","kid_id")
+                     SELECT "id","name","photo_url","status","created_at","updated_at","kid_id" FROM "pets"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "pets"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar DEFAULT NULL, "photo_url" varchar DEFAULT NULL, "status" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "pets" ("id","name","photo_url","status","created_at","updated_at")
+                     SELECT "id","name","photo_url","status","created_at","updated_at" FROM "apets"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apets"[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190130164408"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKids (20190130163802)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE "kids"[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190130163802"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mKid Load (0.3ms)[0m  [1m[34mSELECT  "kids".* FROM "kids" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mPet Load (1.5ms)[0m  [1m[34mSELECT  "pets".* FROM "pets" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKids (20190130163802)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "kids" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190130163802"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddKidIdToPets (20190130164408)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "pets" ADD "kid_id" integer[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190130164408"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mKid Load (1.9ms)[0m  [1m[34mSELECT "kids".* FROM "kids"[0m
+  [1m[36mKid Load (0.2ms)[0m  [1m[34mSELECT "kids".* FROM "kids"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "kids" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Eve"], ["created_at", "2019-01-30 17:12:31.776505"], ["updated_at", "2019-01-30 17:12:31.776505"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPet Load (0.4ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT  "pets".* FROM "pets" ORDER BY "pets"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "pets" WHERE "pets"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RemovePhotoUrlFromPets (20190130171616)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar DEFAULT NULL, "photo_url" varchar DEFAULT NULL, "status" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "kid_id" integer DEFAULT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "apets" ("id","name","photo_url","status","created_at","updated_at","kid_id")
+                     SELECT "id","name","photo_url","status","created_at","updated_at","kid_id" FROM "pets"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "pets"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar DEFAULT NULL, "status" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "kid_id" integer DEFAULT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "pets" ("id","name","status","created_at","updated_at","kid_id")
+                     SELECT "id","name","status","created_at","updated_at","kid_id" FROM "apets"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apets"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190130171616"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
